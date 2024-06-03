@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión - Café Delicioso</title>
+    <link rel="stylesheet" href="Inicio de sesion.css">
+</head>
+
+<body>
+  <div class="login-container">
+        <h1>Iniciar Sesión</h1>
+        <form class="login-form">
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Correo" required>
+            <input type="password" placeholder="Contraseña" required>
+            <button type="submit" onclick="redirectToMainPage()">Ingresar</button>
+        </form>
+    </div>
+    <script>
+        function redirectToMainPage() {
+            window.location.href = "index.html";
+        }
+    </script>
+</body>
+
+</html>
